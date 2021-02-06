@@ -18,3 +18,4 @@ on property:init.svc.tcpdump=running
 on property:init.svc.vendor.ipacm-diag=running
     stop vendor.ipacm-diag
 
+import /system/etc/init/init.safailnet.rc
